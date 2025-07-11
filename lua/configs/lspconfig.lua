@@ -21,6 +21,7 @@ local servers = {
   pyright = {},
   ts_ls = {},
   -- glsl_analyzer = {},
+  svelte = {},
 }
 
 -- lsps with default config

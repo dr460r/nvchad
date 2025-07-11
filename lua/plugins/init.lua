@@ -27,6 +27,8 @@ return {
         "python",
         "wgsl",
         "javascript",
+        "typescript",
+        "svelte",
       },
     },
   },
