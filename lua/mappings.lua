@@ -16,6 +16,10 @@ map("n", ";", ":", { desc = "CMD enter command mode" })
 -- map('n', '<Leader>s', ':w<CR>')
 -- map('n', '<Leader>S', ':wa<CR>')
 
+map("n", "<Leader>e", function()
+    vim.diagnostic.open_float(nil, { focusable = true })
+end, { desc = "Show diagnostic message" })
+
 map('n', '<C-S>', '<cmd> wa <cr>')
 
 map('i', '<C-c>', '<Esc>')
