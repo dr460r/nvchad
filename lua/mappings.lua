@@ -24,7 +24,7 @@ map('n', '<Leader>p', function() vim.lsp.buf.format({ async = true }) end)
 map('n', '<C-d>', '<C-d>zz')
 map('n', '<C-u>', '<C-u>zz')
 
-map({ 'n', 'v' }, 'd', '"xd')
-map('n', '<C-p>', '"xp')
-map('n', '<C-P>', '"xP')
+-- map({ 'n', 'v' }, 'd', '"xd')
+-- map('n', '<C-p>', '"xp')
+-- map('n', '<C-P>', '"xP')
 
